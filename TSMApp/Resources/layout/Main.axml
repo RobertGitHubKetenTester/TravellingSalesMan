@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"       
+    android:stretchColumns="1">
+    <TableRow>
+        <TextView
+            android:text=" Knopen: "
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:id="@+id/nknopen"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp" />
+        <Button
+            android:text="+"
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:textSize="15dp"
+            android:id="@+id/plusButton"
+            android:layout_marginTop="10dp" />
+        <Button
+            android:text="-"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:textSize="15dp"
+            android:id="@+id/minButton"
+            android:layout_marginTop="10dp" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text=" Afstand: "
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp" />
+        <TextView
+            android:text="      "
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/lengte"
+            android:textSize="20dp" />
+        <Button
+            android:text="Route 1"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:textSize="15dp"
+            android:id="@+id/route1Button"
+            android:layout_marginTop="10dp" />
+        <Button
+            android:text="Route 2"
+            android:gravity="right"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:textSize="15dp"
+            android:id="@+id/route2Button"
+            android:layout_marginTop="10dp" />
+    </TableRow>
+</TableLayout>
